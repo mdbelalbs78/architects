@@ -84,3 +84,65 @@ nav li{
 .quick-list2{
     
 }
+
+/* features styles  */
+
+.features{
+    margin-left: 120px;
+    margin-bottom: 100px;
+    display: flex;
+}
+.feature{
+    margin: 20px;
+    margin-left: 30px;
+}
+.box-shadow{
+    padding: 10px;
+    box-shadow: 2px 1px 10px #2222;
+    width: 100%;
+    margin: 5px;
+}
+.featur-img{
+    margin-left: 84px;
+    padding: 10px;
+}
+.btn-primary2{
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 15px;   
+}
+.btn-shop{
+   margin-top: -80px;
+   position: relative;
+   margin-left: -20px;
+}
+
+/* some-facts styles  */
+
+.some-facts{
+    margin-left: 120px;
+    margin-bottom: 70px;
+    padding: 20px;
+}
+.some-shadow{
+    
+    padding: 10px;
+    box-shadow: 2px 1px 10px #2222;
+    width: 10%;
+    height: 100px;
+    margin: 5px;
+   
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate(90deg);
+}
+
+.some-fact2{
+    margin-left: 120px;
+    padding: 10px;
+}
