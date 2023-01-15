@@ -4,6 +4,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
 /* header and navigation styles */
 header{
     background: rgba(255, 144, 14, 0.1);
@@ -103,7 +104,7 @@ nav li{
     margin: 5px;
 }
 .featur-img{
-    margin-left: 84px;
+    margin-left: 150px;
     padding: 10px;
 }
 .btn-primary2{
@@ -128,21 +129,189 @@ nav li{
     margin-left: 120px;
     margin-bottom: 70px;
     padding: 20px;
+    
 }
 .some-shadow{
     
-    padding: 10px;
+    /* padding: 10px; */
     box-shadow: 2px 1px 10px #2222;
-    width: 10%;
-    height: 100px;
-    margin: 5px;
-   
+    width: 15%;
+    height: 110px;
+        
     border: 1px solid #FF900E;
     border-radius: 8px;
-    transform: rotate(90deg);
+    
+}
+.some-title{
+    margin-bottom: 100px;
+}
+.some-fact2{
+   display: flex;
+   gap: 100px;
+}
+.some-shadow, img{
+   
+    margin-top: 10px;
+    text-align: center;
+   justify-content: center;
+   gap: 60px;
+   font-size: 18px;
+   font-weight: 700px;
+   
 }
 
 .some-fact2{
     margin-left: 120px;
     padding: 10px;
+}
+
+/* sponers container  */
+
+.container{
+    margin-left: 100px;
+   
+}
+.spons-title{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.spons-img{
+    display: flex;
+    gap: 100px;
+
+}
+
+/* footer styles  */
+.footer{
+    margin-top: 100px;
+    margin-left: 100px; 
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    height: 100px;
+    margin-right: 100px;
+  
+}
+.footer-title{
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .footer{
+        margin-top: 100px;
+        margin-left: 10px; 
+        background: #FFF4E7;
+        border-radius: 8px;
+        margin-bottom: 50px;
+        height: 100px;
+        width: 100%;
+        /* margin-right: 100px; */
+      
+    }
+    .footer-title{
+        /* padding: 20px; */
+        text-align: center;
+        justify-content: center;
+      }
+}
+
+/* Responsive Styles  */
+
+@media screen and (max-width: 576px) {
+    nav {
+        align-items: center;
+        padding: 10px 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+@media screen  and (max-width:576px){
+    .banner2, .banner, .features, .some-fact2, .spons-img{
+        
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner2 {
+        /* background-color: red; */
+        /* margin-top: 80px; */
+        /* margin-right: 70px; */
+        margin: 50px;
+        
+    }
+    .banner{
+        background-color: red;
+       /* margin-left: 40px; */
+    }
+}
+
+@media screen and (max-width:576px){
+    .features {
+        /* background-color: yellow; */
+        padding: 30px;
+        margin-top: 20px;
+        margin-left: -50px;
+    } 
+    .box-shadow{
+        padding: 10px;
+        box-shadow: 2px 1px 10px #2222;
+        width: 100%;
+        margin-right: 200px;
+    }
+    .featur-img,img{
+        /* background-color: red; */
+        height: 80%;
+        width: 80%;
+        padding: 25px;
+        margin-left: 2px;
+        /* padding-left: 40px; */   
+
+    }
+    .featur-img> .btn-shop{
+        height: 20px;
+        width: 50px;
+        /* padding: 25px; */
+        margin-left: 10px;
+    }
+}
+
+/* some fackt responsive  */
+@media screen and (max-width: 576px) {
+    .some-facts{
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .some-fact2{
+        margin-left: 10px;
+        margin: 100px;
+        border: none;
+    }
+  
+    .some-shadow{
+   
+        border: none;
+        text-align: center;
+       justify-content: center;
+       gap: 60px;
+      
+       width: 25px;
+       width: 25px;
+       
+    }
+    
+}
+
+.hide{
+    display: none;
 }
