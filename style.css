@@ -53,8 +53,10 @@ nav li{
      color: white;
      border: none;
      width: 120px;
-     height: 40px    
-      
+     height: 40px       
+}
+.btn{
+    margin-top: 10px;
 }
 .img{
     width: 80%;
@@ -68,8 +70,8 @@ nav li{
 }
 .banner2{
     display: flex;
-    margin: 100px 130px;
-    
+    margin: 10px 130px;
+    margin-bottom: 50px;
 }
 .banner2 img{
    
@@ -83,8 +85,18 @@ nav li{
     /* margin-left: 70px; */
        
 }
-.quick-list2{
-    
+.quick-header{
+    margin-bottom: 15px;
+}
+.featur{
+    color: #FF900E;
+}
+@media screen and (max-width: 576px) {
+    .quick-list{
+        text-align: center;
+        margin-bottom: 250px;
+        margin-left: 80px;
+    }
 }
 
 /* features styles  */
@@ -191,7 +203,8 @@ nav li{
     border-radius: 8px;
     margin-bottom: 50px;
     height: 100px;
-    margin-right: 100px;
+    margin-right: 10px;
+    width: 100%;
   
 }
 .footer-title{
@@ -203,7 +216,7 @@ nav li{
 @media screen and (max-width: 576px) {
     .footer{
         margin-top: 100px;
-        margin-left: 10px; 
+        margin-left: 100px; 
         background: #FFF4E7;
         border-radius: 8px;
         margin-bottom: 50px;
